@@ -38,17 +38,11 @@ overflow: auto;
     </style>
 </head>
 <body>
-<h1> ADABOOST MODEL OUTCOME </h1>
-<br><br>
-<div class="tab">
-<b><h3>Values entered are : </b> <br> </h3>
-{% for table in tables %}
-    <div class="showTable">{{ table|safe }}</div>
-{% endfor %}
-</div>
+<h1> Random Forest Algorithm </h1>
+
 
 <b class="prediction"> <h3>
-    <b>Our Churn Prediction for this customer is that he/she will be a <u> <b>{{ result}} </u></b>
+    <b>Contract type for this customer will be a <u> <b>{{ result}} </u></b>
 
    </u></h3></b>
 

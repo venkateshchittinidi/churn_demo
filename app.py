@@ -29,7 +29,7 @@ def get_data():
     TechSupport = request.form.get('TechSupport')
     StreamingTV = request.form.get('StreamingTV')
     StreamingMovies = request.form.get('StreamingMovies')
-    Churn = request.form.get('Churn')
+    #Churn = request.form.get('Churn')
     PaperlessBilling = request.form.get('PaperlessBilling')
     PaymentMethod = request.form.get('PaymentMethod')
 
@@ -43,7 +43,7 @@ def get_data():
               'TechSupport_no': [0], 'TechSupport_nointernetservice': [0],'TechSupport_yes': [0], 
               'StreamingTV_no': [0], 'StreamingTV_nointernetservice': [0],'StreamingTV_yes': [0], 
               'StreamingMovies_no': [0], 'StreamingMovies_nointernetservice': [0],'StreamingMovies_yes': [0],
-              'Churn': [Churn],
+              #'Churn': [Churn],
               'PaperlessBilling': [PaperlessBilling],
               'PaymentMethod_banktransfer(automatic)': [0], 'PaymentMethod_creditcard(automatic)': [0],
               'PaymentMethod_electroniccheck': [0], 'PaymentMethod_mailedcheck': [0]}
